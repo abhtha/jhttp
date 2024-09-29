@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_abhtha_jhttp_1727602142649-push-trigger-input-set
+  identifier: Build_abhtha_jhttp_1727602142649pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Demo
+  pipeline:
+    identifier: Build_abhtha_jhttp_1727602142649
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
